@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/DINAMITA" vcs="Git" />
+=======
+>>>>>>> 7f0b53d383e82c248d87f60736e676b2e0523b5a
   </component>
 </project>
