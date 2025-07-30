@@ -8,7 +8,7 @@ def testObtenerListaDeTutoresActivosCorrectamente():
     endpoint = "agregarCurso"
     lista_url = url + endpoint
     payload = {
-        "CODCURSO": "2025",
+        "CODCURSO": "2027Curso",
         "CURSO": "Curso"
     }
     headers = {
@@ -16,7 +16,7 @@ def testObtenerListaDeTutoresActivosCorrectamente():
         "Content-Type": "application/json"
     }
     response = requests.post(lista_url, json=payload, headers=headers)
-    assert response.status_code == 200
+    assert response.status_code == 201
     schema = {
         "$schema": "http://json-schema.org/draft-04/schema#",
         "type": "object",
