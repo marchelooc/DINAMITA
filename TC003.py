@@ -8,8 +8,8 @@ def testObtenerListaDeTutoresActivosCorrectamente():
     endpoint = "agregarCurso"
     lista_url = url + endpoint
     payload = {
-        "CODCURSO": "",
-        "CURSO": ""
+        "CODCURSO": "2025",
+        "CURSO": "Curso"
     }
     headers = {
         "Accept": "application/json",
