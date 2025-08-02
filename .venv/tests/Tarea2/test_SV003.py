@@ -1,7 +1,7 @@
 import requests
 import json
 
-def test_SV003_Request_404():
+def test_SV003_gregar_un_item_a_un_patch_inexistente_para_generar_un_error_404():
     url = "https://api.restful-api.dev/"
 
     list_url = url + "objectss" #(el patch objectss esta mal escrito por tener doble s al final)

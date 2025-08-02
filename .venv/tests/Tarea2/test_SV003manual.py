@@ -1,6 +1,6 @@
 #ID: SV003
 
-#Título: Agregar un item con body, pero a un patch inexistente para generar un error 404.
+#Título: Agregar un item a un patch inexistente para generar un error 404.
 
 #Descripción: El usuario debe obtener intentar agregar un objeto con un patch inexistente usando POST.
 
