@@ -26,5 +26,5 @@ def test_sv001_Obtener_una_lista_de_IDs_de_los_objetos_del_departamento_1():
     # 5 verificar que el estado sea 200
     assert response.status_code == 200
 
-    # 6 verificar que el resultado muestre un entero y un arreglo. 
+    # 6 verificar que el resultado muestre un entero y un arreglo..
     print(response.text)
